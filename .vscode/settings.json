@@ -1,0 +1,8 @@
+{
+    "code-runner.executorMap": {
+    "c": "gcc -o $shell $shell.c && ./$(basename $shell.c)"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true
+
+}
