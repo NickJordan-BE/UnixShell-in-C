@@ -1,8 +1,14 @@
-#include <stdio.h>
+#include <stdbool.h>
+
+#include "shell.h"
+
+// typedef struct {
+//     char* cmdName;
+//     void (*fptr)();
+// } Command;
+
 
 int main(void) {
-
-    printf("Hello!");
-
+    shell_loop();
     return 0;
 }
