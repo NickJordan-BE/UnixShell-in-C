@@ -1,2 +1,12 @@
-
+# Compiled object files
 *.o
+
+# Compiled binary executable
+*.out
+*.exe
+*.elf
+
+# Build directories
+/build/
+/bin/
+/obj/
